@@ -1,9 +1,9 @@
 import server from "./index.js";
-const port = process.env.PORT || 8362;
-import mongoose from './src/config/mongoose.js';
+import connectDB from './src/config/mongoose.js';
+const port = process.env.PORT || 8363;
 
-server.listen(port, function (error) {
-
+server.listen(port, async function (error) {
+    await connectDB();
     if (error) {
         console.log(`Error in running the server:${error}`);
     }
