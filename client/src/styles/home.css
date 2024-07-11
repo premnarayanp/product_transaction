@@ -87,3 +87,26 @@ select {
     gap: 20px;
     border: solid 1px gray;
 }
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 2px gray;
+    /* border-radius: 10px; */
+    padding: 5px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+/* .action-button {
+    padding-left: 50px;
+    padding-right: 50px;
+} */
+
+.pagination button {
+    cursor: pointer;
+    margin-left: 50px;
+    margin-right: 50px;
+}

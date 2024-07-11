@@ -36,7 +36,7 @@ const Home = () => {
                     ))}
                 </select>
             </div>
-            <TransactionsTable transactions={transactions} />
+            <TransactionsTable transactions={transactions} page={page} />
             <TransactionsStatistics statistics={statistics} />
             <TransactionsBarChart data={barChartData} />
         </div>

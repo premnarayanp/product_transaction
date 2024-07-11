@@ -22,6 +22,8 @@ const productReducer = (state = initialState, action) => {
             return { ...state, searchQuery: action.payload };
         case types.SET_MONTH:
             return { ...state, month: action.payload };
+        case types.SET_PAGE:
+            return { ...state, page: action.payload };
         default:
             return state;
     }

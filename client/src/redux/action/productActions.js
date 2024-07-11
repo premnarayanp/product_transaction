@@ -26,6 +26,13 @@ export const setMonth = (month) => ({
     payload: month
 });
 
+export const setPage = (page) => ({
+    type: types.SET_PAGE,
+    payload: page
+});
+
+
+
 export const fetchTransactionsData = (month, search, page, perPage) => async (dispatch) => {
     try {
         const response = await fetchTransactions(month, search, page, perPage);
