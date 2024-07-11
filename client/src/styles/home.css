@@ -1,0 +1,89 @@
+.Home {
+    height: 100vh;
+    width: 100vw;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* background-color: wheat; */
+}
+
+
+/*---------- transition table CSS------------ */
+
+.TransactionsTable {
+    border-collapse: collapse;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.TransactionsTable thead {
+    background-color: rgb(234, 197, 143);
+}
+
+.TransactionsTable thead th {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    color: white;
+}
+
+.TransactionsTable tbody td {
+    text-align: start;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: aliceblue;
+}
+
+
+/* ------------SearchBar CSS--------------- */
+
+.navbar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.titleBar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    padding: 30px;
+    background-color: aliceblue;
+}
+
+.titleBar span {
+    color: gray;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search-bar input,
+select {
+    height: 30px;
+    font-size: 14px;
+    background-color: rgb(220, 241, 176);
+}
+
+
+/*----------- TransactionsStatistics  CSS----------------- */
+
+.TransactionsStatistics {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: bisque;
+    gap: 20px;
+    border: solid 1px gray;
+}

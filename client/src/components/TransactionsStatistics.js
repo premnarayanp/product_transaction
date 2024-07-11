@@ -2,7 +2,7 @@ import React from 'react';
 
 const TransactionsStatistics = ({ statistics }) => {
     return (
-        <div>
+        <div className='TransactionsStatistics'>
             <div>Total Sale Amount: {statistics.totalSaleAmount}</div>
             <div>Total Sold Items: {statistics.totalSoldItems}</div>
             <div>Total Not Sold Items: {statistics.totalNotSoldItems}</div>

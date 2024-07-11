@@ -1,8 +1,8 @@
 import React from 'react';
-
+import '../styles/home.css'
 const TransactionsTable = ({ transactions }) => {
     return (
-        <table>
+        <table className='TransactionsTable'>
             <thead>
                 <tr>
                     <th>Title</th>
