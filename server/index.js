@@ -14,6 +14,6 @@ app.use(express.urlencoded());
 //for json req/res
 app.use(express.json());
 
-app.use('/api', productRoutes);
+app.use('/api/products', productRoutes);
 
 export default app;

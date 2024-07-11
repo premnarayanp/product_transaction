@@ -7,6 +7,7 @@ export const ProductSchema = new mongoose.Schema({
     sold: Boolean,
     dateOfSale: Date,
     category: String,
+    image: String,
     month: Number // New field to store the month
 });
 

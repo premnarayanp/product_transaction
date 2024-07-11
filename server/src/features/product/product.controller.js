@@ -52,6 +52,7 @@ export const listTransactions = async (req, res) => {
 };
 
 export const getStatisticsController = async (req, res) => {
+    console.log("------------/statistics----------");
     const { month } = req.query;
     const queryMonth = month ? parseInt(month, 10) : undefined;
 
